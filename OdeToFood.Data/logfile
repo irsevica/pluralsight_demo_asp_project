@@ -1,0 +1,44 @@
+2019-04-22 18:05:37.513 NZST [26045] LOG:  could not bind IPv6 address "::1": Address already in use
+2019-04-22 18:05:37.513 NZST [26045] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:05:37.513 NZST [26045] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-04-22 18:05:37.513 NZST [26045] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:05:37.513 NZST [26045] WARNING:  could not create listen socket for "localhost"
+2019-04-22 18:05:37.513 NZST [26045] FATAL:  could not create any TCP/IP sockets
+2019-04-22 18:05:37.513 NZST [26045] LOG:  database system is shut down
+2019-04-22 18:05:59.093 NZST [26048] LOG:  could not bind IPv6 address "::1": Address already in use
+2019-04-22 18:05:59.093 NZST [26048] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:05:59.093 NZST [26048] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-04-22 18:05:59.093 NZST [26048] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:05:59.093 NZST [26048] WARNING:  could not create listen socket for "localhost"
+2019-04-22 18:05:59.093 NZST [26048] FATAL:  could not create any TCP/IP sockets
+2019-04-22 18:05:59.093 NZST [26048] LOG:  database system is shut down
+2019-04-22 18:06:20.316 NZST [26064] LOG:  could not bind IPv6 address "::1": Address already in use
+2019-04-22 18:06:20.316 NZST [26064] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:06:20.316 NZST [26064] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-04-22 18:06:20.316 NZST [26064] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:06:20.316 NZST [26064] WARNING:  could not create listen socket for "localhost"
+2019-04-22 18:06:20.316 NZST [26064] FATAL:  could not create any TCP/IP sockets
+2019-04-22 18:06:20.316 NZST [26064] LOG:  database system is shut down
+2019-04-22 18:19:03.178 NZST [27076] LOG:  could not bind IPv6 address "::1": Address already in use
+2019-04-22 18:19:03.178 NZST [27076] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:19:03.178 NZST [27076] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-04-22 18:19:03.178 NZST [27076] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-04-22 18:19:03.178 NZST [27076] WARNING:  could not create listen socket for "localhost"
+2019-04-22 18:19:03.178 NZST [27076] FATAL:  could not create any TCP/IP sockets
+2019-04-22 18:19:03.179 NZST [27076] LOG:  database system is shut down
+2019-04-22 18:19:42.733 NZST [27080] LOG:  listening on IPv6 address "::1", port 5432
+2019-04-22 18:19:42.733 NZST [27080] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-04-22 18:19:42.734 NZST [27080] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-04-22 18:19:42.746 NZST [27081] LOG:  database system was shut down at 2019-04-22 18:18:58 NZST
+2019-04-22 18:19:42.749 NZST [27080] LOG:  database system is ready to accept connections
+2019-04-22 18:19:58.500 NZST [27089] FATAL:  role "postgres" does not exist
+2019-04-22 18:20:02.779 NZST [27091] FATAL:  role "postgresql" does not exist
+2019-04-22 18:20:06.383 NZST [27093] FATAL:  database "anitai" does not exist
+2019-04-22 23:48:18.913 NZST [27960] FATAL:  database "anitai" does not exist
+2019-04-22 23:49:01.532 NZST [27963] ERROR:  relation "restaurants" does not exist at character 15
+2019-04-22 23:49:01.532 NZST [27963] STATEMENT:  select * from Restaurants;
+2019-04-22 23:52:14.839 NZST [27963] ERROR:  syntax error at or near "SELECT" at character 27
+2019-04-22 23:52:14.839 NZST [27963] STATEMENT:  select * from Restaurants
+	SELECT * FROM Restaurants
+	select current_user
+	select current_user;
