@@ -42,3 +42,16 @@
 	SELECT * FROM Restaurants
 	select current_user
 	select current_user;
+2019-04-25 18:15:17.066 NZST [30752] FATAL:  database "anitai" does not exist
+2019-04-25 18:15:25.227 NZST [30754] FATAL:  database "Restaurants" does not exist
+2019-04-25 18:17:38.157 NZST [30756] ERROR:  syntax error at or near "/" at character 1
+2019-04-25 18:17:38.157 NZST [30756] STATEMENT:  /dt
+	select * from  "Restaurants"
+	SELECT * FROM "Restaurants"
+	DESCRIBE "Restaurants"
+	SELECT * FROM "Restaurants";
+2019-04-25 18:17:53.595 NZST [30788] FATAL:  database "Restaurants" does not exist
+2019-04-25 19:02:11.580 NZST [27080] LOG:  received smart shutdown request
+2019-04-25 19:02:11.583 NZST [27080] LOG:  background worker "logical replication launcher" (PID 27087) exited with exit code 1
+2019-04-25 19:02:11.583 NZST [27082] LOG:  shutting down
+2019-04-25 19:02:12.101 NZST [27080] LOG:  database system is shut down
